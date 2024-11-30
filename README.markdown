@@ -10,8 +10,12 @@ Stage III: Fine-tuning. In this code base, we actually provide basic building bl
 
 # BioMedical NER
 
-Method (F1) BC5CDR-chem BC5CDR-disease NCBI-disease BERT 89.99 79.92
-85.87 bioBERT 92.85 84.70 89.13 PubMedBERT 93.33 85.62 87.82 NEEDLE
-91.38 82.57 88.53
+| Method(F1) | BC5CDR-chem | BC5CDR-disease | NCBI-disease |
+|------------|-------------|----------------|--------------|
+| BERT       | 89.99       | 79.92          | 85.87        |
+| bioBERT    | 92.85       | 84.70          | 89.13        |
+| PubMedBERT | 93.33       | 85.62          | 87.82        |
+| NEEDLE     | 91.38       | 82.57          | 88.53        |
+
 
 
